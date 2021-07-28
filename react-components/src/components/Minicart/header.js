@@ -24,7 +24,7 @@ const Header = () => {
 
     return (
         <div className={classes.root}>
-            <h2 className={classes.title}>{t('cart:shopping-cart', 'Shopping Cart')}</h2>
+            <h2 className={classes.title}>{t('cart:shopping-cart', 'Shopping Cart Test')}</h2>
             <button
                 onClick={() => {
                     dispatch({ type: 'close' });

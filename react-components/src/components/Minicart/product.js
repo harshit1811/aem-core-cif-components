@@ -78,6 +78,9 @@ const Product = props => {
                 <div className={classes.rowTotalRow}>
                     <Price className={classes.rowTotal} currencyCode={row_total.currency} value={row_total.value} />
                 </div>
+                <div className={classes.rowTotalRow}>
+                    <Price className={classes.rowTotal} currencyCode={row_total.currency} value={row_total.value} />
+                </div>
             </div>
             <Kebab>
                 <Section text={t('cart:edit-item', 'Edit item')} onClick={editItem} icon="Edit2" />
