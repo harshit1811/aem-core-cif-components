@@ -86,6 +86,14 @@ const CreateAccount = props => {
                     aria-label="email"
                 />
             </Field>
+            <Field label={t('account:email', 'Phone number')} required={true}>
+                <TextInput
+                    field="customer.email"
+                    autoComplete="email"
+                    validateOnBlur
+                    aria-label="email"
+                />
+            </Field>
             <Field label={t('account:password', 'Password')} required={true}>
                 <TextInput
                     field="password"
